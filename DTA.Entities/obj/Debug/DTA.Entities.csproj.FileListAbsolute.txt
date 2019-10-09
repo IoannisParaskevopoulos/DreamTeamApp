@@ -1,0 +1,6 @@
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Entities\bin\Debug\DTA.Entities.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Entities\bin\Debug\DTA.Entities.pdb
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Entities\obj\Debug\DTA.Entities.csprojAssemblyReference.cache
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Entities\obj\Debug\DTA.Entities.csproj.CoreCompileInputs.cache
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Entities\obj\Debug\DTA.Entities.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Entities\obj\Debug\DTA.Entities.pdb

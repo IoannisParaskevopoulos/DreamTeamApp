@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!--===========================================================================================-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="DreamTeam" content="PeopleCert">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>DreamTeam - App</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="~/content/bootstrap.min.css" rel="stylesheet" runat="server">
+    <!-- bootstrap theme -->
+    <link href="~/content/bootstrap-theme.css" rel="stylesheet" runat="server">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="~/css/elegant-icons-style.css" rel="stylesheet" runat="server">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" runat="server">
+    <!-- full calendar css-->
+    <link href="~/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" runat="server">
+    <link href="~/assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" runat="server">
+    <!-- easy pie chart-->
+    <link href="~/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen" runat="server">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="~/css/owl.carousel.css" type="text/css" runat="server">
+    <link href="~/css/jquery-jvectormap-1.2.2.css" rel="stylesheet" runat="server">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="~/css/fullcalendar.css" runat="server">
+    <link href="~/css/widgets.css" rel="stylesheet" runat="server">
+    <link href="~/css/style.css" rel="stylesheet" runat="server">
+    <link href="~/css/style-responsive.css" rel="stylesheet" runat="server">
+    <link href="~/css/xcharts.min.css" rel=" stylesheet" runat="server">
+    <link href="~/css/jquery-ui-1.10.4.min.css" rel="stylesheet" runat="server">
+    <!-- =======================================================
+      Theme Name: NiceAdmin
+      Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+      Author: BootstrapMade
+      Author URL: https://bootstrapmade.com
+    ======================================================= -->
+    <style type="text/css">
+        .jqstooltip {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            display: block;
+            visibility: hidden;
+            background: rgb(0, 0, 0) transparent;
+            background-color: rgba(0,0,0,0.6);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+            white-space: nowrap;
+            border: 1px solid white;
+            z-index: 10000;
+        }
+
+        .jqsfield {
+            color: white;
+            padding: 5px 5px 8px 5px;
+            font: 10px arial, san serif;
+            text-align: left;
+        }
+    </style>
+
+    <!--===========================================================================================-->
+
+</head>
+<body>
+    <section id="container" class="">
+        @Html.Partial("~/Views/Shared/_PartialHeadBar.cshtml")
+        @Html.Partial("~/Views/Shared/_PartialAsideBar.cshtml")
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My DreamTeam Application</p>
+            </footer>
+        </div>
+    </section>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>

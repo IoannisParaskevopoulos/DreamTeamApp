@@ -1,0 +1,15 @@
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\DTA.Services.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\DTA.Services.pdb
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\obj\Debug\DTA.Services.csprojAssemblyReference.cache
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\obj\Debug\DTA.Services.csproj.CoreCompileInputs.cache
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\obj\Debug\DTA.Services.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\obj\Debug\DTA.Services.pdb
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\DTA.Services.dll.config
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\DTA.Database.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\EntityFramework.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\DTA.Database.pdb
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\DTA.Database.dll.config
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\EntityFramework.xml
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Services\obj\Debug\DTA.Services.csproj.CopyComplete

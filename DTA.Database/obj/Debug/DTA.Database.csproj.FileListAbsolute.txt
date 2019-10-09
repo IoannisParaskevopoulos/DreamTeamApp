@@ -1,0 +1,12 @@
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\DTA.Database.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\DTA.Database.pdb
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\obj\Debug\DTA.Database.csprojAssemblyReference.cache
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\obj\Debug\DTA.Database.csproj.CoreCompileInputs.cache
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\obj\Debug\DTA.Database.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\obj\Debug\DTA.Database.pdb
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\DTA.Database.dll.config
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\EntityFramework.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\EntityFramework.xml
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\AFDEmp\ASP.NET MVC\DreamTeamApp\DTA.Database\obj\Debug\DTA.Database.csproj.CopyComplete
