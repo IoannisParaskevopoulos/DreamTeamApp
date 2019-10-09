@@ -4,8 +4,8 @@
             <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
         </div>
 
-        <!--logo start-->
-        <a href="@Url.Action("Index", "Home")" class="logo">DreamTeam <span class="lite">App</span></a>
+        <!--logo start-->@*@Url.Action("Index", "Home")*@
+        <a href="/" class="logo">DreamTeam <span class="lite">App</span></a>
         <!--logo end-->
 
         <div class="nav search-row" id="top_menu">
@@ -26,22 +26,22 @@
             {
                 @Html.AntiForgeryToken()
                 <div class="top-nav notification-row">
-                   <ul class="nav pull-right top-menu">
-                      <li>
-                             @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
-                      </li>
-                      <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
-                   </ul>
+                    <ul class="nav pull-right top-menu">
+                        <li>
+                            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                        </li>
+                        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                    </ul>
                 </div>
             }
-         }
-         else
-         {
-                 <div class="top-nav notification-row">
-                        <ul class="nav pull-right top-menu">
-                            <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-                            <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
-                        </ul>
-                 </div>
-         }
+        }
+        else
+        {
+            <div class="top-nav notification-row">
+                <ul class="nav pull-right top-menu">
+                    <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                </ul>
+            </div>
+        }
     </header>
